@@ -4,7 +4,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     background: #bfdbf7;
-    padding: 0px 20px;
+    padding: 10px 20px;
 }
 
 a {
@@ -22,6 +22,17 @@ a {
     display: flex;
     align-items: center;
     gap: 20px;
+    
+    background-color: rgb(59, 59, 124);
+    padding: 6px;
+    padding-right: 6px;
+    border-radius: 20px;
+}
+
+.links {
+    background-color: rgb(105, 105, 221);
+    padding: 22px;
+    border-radius: 16px;
 }
 
 img {
@@ -49,6 +60,7 @@ button {
     border-radius: 8px;
     color: #111827;
     font-size: 14px;
+    margin-right: 6px;
 }
 
 button:hover {
