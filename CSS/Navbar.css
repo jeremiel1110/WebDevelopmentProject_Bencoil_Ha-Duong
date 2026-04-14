@@ -1,89 +1,114 @@
-nav {
-    position: relative;
+/* Header imported with JS */
+.site-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+
     background: #bfdbf7;
     padding: 10px 20px;
-}
-
-a {
-    white-space: nowrap;
+    box-sizing: border-box;
 }
 
 .left {
     display: flex;
-    flex-direction: row;
     align-items: center;
     gap: 15px;
+    flex: 1;
+    min-width: 300px;
 }
 
 .right {
     display: flex;
     align-items: center;
-    gap: 20px;
-    
+    gap: 14px;
+    flex-wrap: wrap;
+
     background-color: rgb(59, 59, 124);
     padding: 6px;
-    padding-right: 6px;
     border-radius: 20px;
 }
 
 .links {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+
     background-color: rgb(105, 105, 221);
-    padding: 22px;
-    border-radius: 16px;
+    padding: 14px;
+    border-radius: 14px;
 }
 
-img {
-    width: 15%;
+.left img {
+    width: 120px;
     height: auto;
     display: block;
-    margin: 8px;
 }
 
-h1 {
+.left h1 {
     margin: 0;
-    display: inline-block;
-}
-
-header {
-    position: absolute;
-    width: 100%;
-    top: 0px;
-    left: 0px;
-}
-
-button {
-    text-decoration: none;
-    border: 2px solid #023f55;
-    border-radius: 8px;
-    color: #111827;
-    font-size: 14px;
-    margin-right: 6px;
-}
-
-button:hover {
-    background-color: #7c7c7c;
-}
-
-a#button {
-    text-decoration: none;
-    font-size: 32px;
+    font-size: 2rem;
     color: black;
 }
 
-a#navlink {
+.navlink {
     text-decoration: none;
     font-size: 16px;
     color: #E1E5F2;
     background-color: #03394C;
-    padding: 8px;
+    padding: 8px 12px;
     border-radius: 5px;
+    white-space: nowrap;
 }
 
-a#navlink:hover {
+.navlink:hover {
     background-color: #013041;
-    padding: 8px;
-    border-radius: 5px;
+}
+
+.button-link {
+    text-decoration: none;
+    font-size: 32px;
+    color: black;
+    background: white;
+    border: 2px solid #023f55;
+    border-radius: 8px;
+    padding: 6px 14px;
+    margin-right: 6px;
+    white-space: nowrap;
+}
+
+.button-link:hover {
+    background-color: #d9d9d9;
+}
+
+@media (max-width: 900px) {
+    .navbar {
+        justify-content: center;
+    }
+
+    .left,
+    .right {
+        justify-content: center;
+    }
+
+    .left h1 {
+        text-align: center;
+        font-size: 1.6rem;
+    }
+
+    .left img {
+        width: 90px;
+    }
+
+    .button-link {
+        font-size: 24px;
+    }
 }
