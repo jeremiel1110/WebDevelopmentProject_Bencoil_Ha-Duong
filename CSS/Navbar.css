@@ -3,8 +3,12 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: gray;
+    background: #bfdbf7;
     padding: 0px 20px;
+}
+
+a {
+    white-space: nowrap;
 }
 
 .left {
@@ -41,14 +45,14 @@ header {
 
 button {
     text-decoration: none;
-    border: 1px solid rgb(71, 71, 71);
+    border: 2px solid #023f55;
     border-radius: 8px;
     color: #111827;
     font-size: 14px;
 }
 
 button:hover {
-    background-color: #373b44;
+    background-color: #7c7c7c;
 }
 
 a#button {
@@ -60,14 +64,14 @@ a#button {
 a#navlink {
     text-decoration: none;
     font-size: 16px;
-    color: black;
-    background-color: rgb(68, 68, 68);
+    color: #E1E5F2;
+    background-color: #03394C;
     padding: 8px;
     border-radius: 5px;
 }
 
 a#navlink:hover {
-    background-color: blue;
+    background-color: #013041;
     padding: 8px;
     border-radius: 5px;
 }
