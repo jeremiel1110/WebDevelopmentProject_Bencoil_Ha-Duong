@@ -1,4 +1,3 @@
-/* Header imported with JS */
 .site-header {
     position: absolute;
     top: 0;
@@ -19,7 +18,6 @@
 }
 
 .left {
-    display: flex;
     align-items: center;
     gap: 15px;
     flex: 1;
@@ -55,7 +53,7 @@
 
 .left h1 {
     margin: 0;
-    font-size: 2rem;
+    font-size: 24px;
     color: black;
 }
 
@@ -87,28 +85,4 @@
 
 .button-link:hover {
     background-color: #d9d9d9;
-}
-
-@media (max-width: 900px) {
-    .navbar {
-        justify-content: center;
-    }
-
-    .left,
-    .right {
-        justify-content: center;
-    }
-
-    .left h1 {
-        text-align: center;
-        font-size: 1.6rem;
-    }
-
-    .left img {
-        width: 90px;
-    }
-
-    .button-link {
-        font-size: 24px;
-    }
 }

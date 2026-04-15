@@ -14,14 +14,15 @@
 
 .footer-left {
     display: flex;
-    flex-direction: column;
+    flex-direction: center;
     gap: 8px;
-    max-width: 500px;
+    max-width: 40%;
 }
 
 .footer-left img {
-    width: 90px;
-    height: auto;
+    width: auto;
+    height: 80px;
+    margin-right: 8px;
 }
 
 .footer-left h1 {
