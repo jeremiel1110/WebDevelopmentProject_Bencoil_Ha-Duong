@@ -24,3 +24,25 @@
 }
 
 /* CSS pour les Table à faire */
+
+th, td {
+    border: 1px solid #006400;
+    padding: 12px;
+    text-align: center;
+}
+
+.Vgrades, .Jgrades{
+    width: 30%;
+}
+
+.Jgrades {
+    display: flex;
+    gap: 20px;
+    align-self: right;
+}
+
+.grades{
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+}
