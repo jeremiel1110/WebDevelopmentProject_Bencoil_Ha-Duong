@@ -32,13 +32,17 @@ th, td {
 }
 
 .Vgrades, .Jgrades{
-    width: 30%;
+    width: flex;
+    display: flex;
+    padding: 20px;
+}
+
+.Vgrades{
+
 }
 
 .Jgrades {
-    display: flex;
-    gap: 20px;
-    align-self: right;
+
 }
 
 .grades{
