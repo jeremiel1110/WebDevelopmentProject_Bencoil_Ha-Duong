@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+
+    <link rel="stylesheet" href="../CSS/Styles.css">
+    <link rel="stylesheet" href="../CSS/Navbar.css">
+    <link rel="stylesheet" href="../CSS/Footer.css">
+    <link rel="stylesheet" href="../CSS/Helpdesk.css">
+</head>
+<body>
+    <!-- Header -->
+    <div id="navbar"></div>
+    <script defer src="../JS/Navbar.js"></script>
+
+    <!-- Main -->
+    <main class="form-wrapper">
+<div id="form-container">
+  <h2>Helpdesk Support</h2>
+  <form id="form">
+    <input type="hidden" name="access_key" value="34664c4e-1d4a-41e2-9312-8830590a2e8a">
+    
+    <label>Name</label>
+    <input type="text" name="name" placeholder="John Doe" required>
+    
+    <label>Email</label>
+    <input type="email" name="email" placeholder="john@example.com" required>
+    
+    <label>Message</label>
+    <textarea name="message" placeholder="How can we help?" required></textarea>
+    
+    <button type="submit">Submit Ticket</button>
+  </form>
+  <div id="result"></div>
+  </div>
+    </main>
+
+    <!-- Footer -->
+    <div id="footer"></div>
+    <script defer src="../JS/Footer.js"></script>
+    <script defer src="../JS/Helpdesk.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,80 @@
+body {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  background-color: #f8fafc;
+  margin: 0;
+  display: flex;
+  flex-direction: column; /* Stack header, main, and footer vertically */
+  min-height: 100vh;
+}
+
+.form-wrapper {
+    flex: 1; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;    /* Keeps the form centered horizontally */
+    
+    /* REMOVE justify-content: center; if it was there */
+    
+    /* ADD THIS: */
+    padding-top: 60px;      /* This creates space below your navbar */
+    padding-bottom: 60px;   /* This creates space above your footer */
+    box-sizing: border-box;
+}
+
+#form-container {
+    background: white;
+    padding: 2.5rem;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 450px;
+    
+    /* ADD THIS to ensure it doesn't touch the very top */
+    margin-top: 20px; 
+}
+
+h2 {
+  margin-top: 0;
+  color: #1e293b;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0 20px 0;
+  border: 1px solid #e2e8f0;
+  border-radius: 6px;
+  box-sizing: border-box;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+input:focus, textarea:focus {
+  outline: none;
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+}
+
+button {
+  width: 100%;
+  background-color: #2563eb;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+button:hover {
+  background-color: #1d4ed8;
+}
+
+#result {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 14px;
+}
