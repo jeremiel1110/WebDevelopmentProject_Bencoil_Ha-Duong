@@ -1,0 +1,22 @@
+[
+    {
+        "title": "Student Projects Open",
+        "content": "Submit your ideas for web, AI, cybersecurity or software projects this semester.",
+        "img": "../IMG/News/project.jpg"
+    },
+    {
+        "title": "Git & GitHub Workshop",
+        "content": "Learn branches, commits and pull requests during our practical workshop.",
+        "img": "../IMG/News/git.jpg"
+    },
+    {
+        "title": "AI Conference",
+        "content": "A guest speaker will present the latest advances in machine learning and generative AI.",
+        "img": "../IMG/News/ai.jpg"
+    },
+    {
+        "title": "New Syllabus Available",
+        "content": "All computer science course syllabi are now available on the department platform.",
+        "img": "../IMG/News/syllabus.jpg"
+    }
+]

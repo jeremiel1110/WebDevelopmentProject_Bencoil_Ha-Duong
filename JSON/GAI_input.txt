@@ -1,0 +1,5 @@
+Artificial Intelligence was used to generate:
+- The JSON news data used in the website carousel
+- The images displayed in the news section
+
+The AI was used as a content generation tool to create realistic academic announcements and matching visuals for the project.
