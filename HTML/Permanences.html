@@ -14,16 +14,42 @@
     <div id="navbar"></div>
     <script defer src="../JS/navbar.js"></script>
 
-    <!-- Main -->
-    <main class="page-content">
-        <h1>Content of the Permanences</h1>
-        <br><br><br><br><br><br><br><br>
-        <br><br><br><br><br><br><br><br>
-        <br><br><br><br><br><br><br><br>
-        <br><br><br><br><br><br><br><br>
-        <h1>End of the Main</h1>
-    </main>
+    <h2>Calendar with clickable permanences</h2>
+    
+    <div id="calendar-container">
+        <div id="calendar-header"></div>
+        <div id="calendar-grid"></div>
+        <div id="info-panel" class="hidden">
+            <ul id="info-list"></ul>
+            <button id="inscription-btn">Inscription</button>
+        </div>
+    </div>
 
+    <div id="form-container">
+        <h3>Ask for a permanence</h3>
+        <form id="permanence-form">
+            <label>Date within a month: <select id="date-select"></select></label><br>
+            <label>Start time: <select id="start-time"></select></label><br>
+            <label>End time: <select id="end-time"></select></label><br>
+            <label>Course:</label>
+            <select id="course-select">
+                <option value="TI402">TI402</option>
+                <option value="TI403">TI403</option>
+                <option value="TI404">TI404</option>
+            </select>            
+            <button type="submit">Submit</button>
+            <small>(Only possible if there's an available teacher)</small>
+        </form>
+    </div>
+
+    <div id="custom-alert" class="modal-overlay hidden">
+    <div class="modal-content">
+        <p id="modal-text"></p>
+        <button id="close-alert">Got it! :3</button>
+    </div>
+    </div>
+
+    <script src="../JS/Permanences.js"></script>
     <!-- Footer -->
     <div id="footer"></div>
     <script defer src="../JS/Footer.js"></script>
