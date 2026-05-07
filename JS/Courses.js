@@ -16,17 +16,26 @@ document.addEventListener('DOMContentLoaded', () => {
                 `;
 
                 // Create the hidden detail row
+               // ... inside your fetch data.courses.forEach loop ...
+
                 const detailRow = document.createElement('tr');
                 detailRow.className = 'detail-row';
                 const syllabusItems = course.syllabus.map(item => `<li>${item}</li>`).join('');
-                
+
                 detailRow.innerHTML = `
                     <td colspan="4">
                         <div class="detail-content">
                             <h4>Description</h4>
                             <p>${course.description}</p>
+                            
                             <h4>Syllabus</h4>
                             <ul class="syllabus-list">${syllabusItems}</ul>
+
+                            <div class="course-actions">
+                                <a href="${course.intro_link}" class="download-btn" target="_blank">
+                                    📄 View Course Introduction
+                                </a>
+                            </div>
                         </div>
                     </td>
                 `;

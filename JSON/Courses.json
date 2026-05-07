@@ -1,28 +1,68 @@
 {
   "courses": [
     {
-      "id": "CS101",
-      "name": "Introduction to Computer Science",
-      "teacher": "Jean-Pierre Algorithm",
-      "ects": 6,
-      "description": "Fundamental concepts of programming and logic.",
-      "syllabus": ["Variables & Types", "Control Flow", "Functions", "Recursion"]
-    },
-    {
-      "id": "TI402",
-      "name": "Advanced Networking",
-      "teacher": "Luc Reseaux",
+      "id": "TI101I",
+      "name": "Programming in Python",
+      "teacher": "ELLOUMI Melek, KLAI Kais",
       "ects": 4,
-      "description": "In-depth study of TCP/IP, routing protocols, and security.",
-      "syllabus": ["OSI Model", "Subnetting", "BGP Routing", "Firewall Config"]
+      "intro_link": "../docs/TI101I.pdf",
+      "description": "Foundations of programming using the Python language, focused on logic and data.",
+      "syllabus": ["Python Syntax", "Data Structures", "Functions", "Project Work"]
     },
     {
-      "id": "AI305",
-      "name": "Artificial Intelligence Ethics",
-      "teacher": "Prof. Ada Lovelace II",
+      "id": "TI102I",
+      "name": "Algorithmics",
+      "teacher": "RAKOTONARIVO Rado",
+      "ects": 4,
+      "intro_link": "../docs/TI102I.pdf",
+      "description": "Introduction to algorithmic logic and problem solving fundamentals.",
+      "syllabus": ["Variables & Operations", "Control Structures", "Loops", "Basic Arrays"]
+    },
+    {
+      "id": "TI202I",
+      "name": "Algorithmics and Data Structure 1",
+      "teacher": "BENKERMI Imène, FLASQUE Nicolas",
       "ects": 5,
-      "description": "Exploring the social and moral impact of AI systems.",
-      "syllabus": ["Bias in ML", "Algorithmic Transparency", "Robot Laws", "Case Studies"]
+      "intro_link": "../docs/TI202I.pdf",
+      "description": "Advanced algorithms and introduction to complex linear data structures.",
+      "syllabus": ["Linked Lists", "Stacks & Queues", "Recursion", "Sorting Algorithms"]
+    },
+    {
+      "id": "TI205I",
+      "name": "Complexity",
+      "teacher": "CHENDEB Safwan, RAKOTONARIVO Rado",
+      "ects": 2,
+      "intro_link": "../docs/TI205I.pdf",
+      "description": "Mathematical analysis of algorithmic performance and theoretical limits.",
+      "syllabus": ["Big O Notation", "Time Complexity", "Space Complexity", "P vs NP"]
+    },
+    {
+      "id": "TI301I-2526PSA01",
+      "name": "Data Structure and Programming 2",
+      "teacher": "Staff",
+      "ects": 4,
+      "intro_link": "../docs/TI301I.pdf",
+      "description": "Deep dive into Object Oriented Programming and tree-based structures.",
+      "syllabus": ["Binary Trees", "Heaps", "Hashing", "Object Oriented Design"]
+    }
+    ,
+    {
+      "id": "TI305I-2526PSA01",
+      "name": "Networks 1 : Basic Concepts",
+      "teacher": "Staff",
+      "ects": 3,
+      "intro_link": "../docs/TI305I.pdf",
+      "description": "Foundations of networking communication and the OSI model layers.",
+      "syllabus": ["Physical Layer", "Data Link Layer", "IP Addressing", "Network Protocols"]
+    },
+    {
+      "id": "TI307I-2526PSA01",
+      "name": "Introduction to Linux",
+      "teacher": "Staff",
+      "ects": 1,
+      "intro_link": "../docs/TI307I.pdf",
+      "description": "Mastering the Linux command line environment and system administration basics.",
+      "syllabus": ["Shell Commands", "File Permissions", "Process Management", "Scripting"]
     }
   ]
 }
