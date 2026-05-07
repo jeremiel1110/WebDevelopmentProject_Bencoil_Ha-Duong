@@ -7,6 +7,7 @@ body {
     padding-top: 180px;
 }
 
+/* Permanences title Styling */
 script ~ h1 {
     text-align: center;
     font-size: 32px;
@@ -40,28 +41,27 @@ script ~ h1 {
     cursor: pointer;
     font-weight: bold;
 }
-
 #inscription-btn:hover {
     background-color: rgb(59, 59, 124);
 }
 
 /* Form Styling */
 #form-container {
-    background-color: #bfdbf7; /* Matching your navbar background */
+    background-color: #bfdbf7; 
     padding: 25px;
     border-radius: 20px;
     width: 80%;
     margin: 0 auto;
 }
-
 #form-container h3 { margin-top: 0px; color: #03394C; }
-
 form select {
     padding: 8px;
     border-radius: 5px;
     border: 1px solid #03394C;
     background-color: #E1E5F2;
 }
+
+
 
 /* Submit Button */
 form button[type="submit"] {
@@ -73,16 +73,16 @@ form button[type="submit"] {
     font-size: 16px;
     cursor: pointer;
 }
-
 form button[type="submit"]:hover {
     background-color: #013041;
 }
-
 .hidden { display: none; }
 
 
+
+/* Permanences Cards */
 .permanence-card {
-    background-color: #E1E5F2; /* Soft color from your palette */
+    background-color: #E1E5F2;
     border: 1px solid #03394C;
     padding: 10px;
     margin: 5px;
@@ -94,7 +94,7 @@ form button[type="submit"]:hover {
 }
 
 
-/* Custom Alert Modal */
+/* Custom pretty Alert Modal */
 .modal-overlay {
     position: fixed;
     top: 0; left: 0; 
