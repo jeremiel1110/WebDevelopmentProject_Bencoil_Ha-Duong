@@ -4,11 +4,22 @@ body {
     padding: 20px;
     padding-top: 120px; 
     background-color: #f4f7f6;
+    padding-top: 180px;
+}
+
+script ~ h1 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    color: #03394C;
+    margin-bottom: 20px;
+    margin-top: 40px;
 }
 
 /* Calendar Container (The big rectangle) */
 #calendar-container {
     margin-top: 20px;
+    margin-bottom: 20px;
     border: 3px solid #03394C;
     background-color: #ffffff;
     width: 80%;
@@ -43,7 +54,7 @@ body {
     margin: 0 auto;
 }
 
-#form-container h3 { color: #03394C; }
+#form-container h3 { margin-top: 0px; color: #03394C; }
 
 form select {
     padding: 8px;
