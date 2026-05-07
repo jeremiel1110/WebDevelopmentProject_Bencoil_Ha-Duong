@@ -15,15 +15,27 @@
     <div id="navbar"></div>
     <script defer src="../JS/Navbar.js"></script>
 
-    <!-- Main -->
-    <main class="page-content">
-        <h1>Content of the Main</h1>
-        <br><br><br><br><br><br><br><br>
-        <br><br><br><br><br><br><br><br>
-        <br><br><br><br><br><br><br><br>
-        <br><br><br><br><br><br><br><br>
-        <h1>End of the Main</h1>
+    <main class="courses-page">
+        <h1 class="page-title">Available Courses</h1>
+        <p class="instruction">Click on a row to reveal the syllabus and details! ✨</p>
+        
+        <div class="table-wrapper">
+            <table class="course-table">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Course Name</th>
+                        <th>Teacher</th>
+                        <th>ECTS</th>
+                    </tr>
+                </thead>
+                <tbody id="course-list">
+                    </tbody>
+            </table>
+        </div>
     </main>
+
+    <script src="../JS/Courses.js"></script>
 
     <!-- Footer -->
     <div id="footer"></div>

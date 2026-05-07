@@ -11,21 +11,38 @@
     <link rel="stylesheet" href="../CSS/Teachers.css">
 </head>
 <body>
-    <!-- Header -->
     <div id="navbar"></div>
     <script defer src="../JS/Navbar.js"></script>
 
-    <!-- Main -->
-    <main class="page-content">
-        <h1>Content of the Teachers</h1>
-        <br><br><br><br><br><br><br><br>
-        <br><br><br><br><br><br><br><br>
-        <br><br><br><br><br><br><br><br>
-        <br><br><br><br><br><br><br><br>
-        <h1>End of the Main</h1>
-    </main>
+   <main class="teachers-page">
+    <h1 class="page-title">Our Faculty</h1>
+    <div class="tables-container">
+        <section class="table-section">
+            <h2>Permanent Teachers</h2>
+            <table class="teacher-table">
+                <thead>
+                    <tr><th>Name</th><th>Expertise</th><th>Profile</th></tr>
+                </thead>
+                <tbody id="permanent-list">
+                    </tbody>
+            </table>
+        </section>
 
-    <!-- Footer -->
+        <section class="table-section">
+            <h2>Researcher-Teachers</h2>
+            <table class="teacher-table">
+                <thead>
+                    <tr><th>Name</th><th>Research</th><th>Publications</th></tr>
+                </thead>
+                <tbody id="researcher-list">
+                    </tbody>
+            </table>
+        </section>
+    </div>
+</main>
+
+<script src="../JS/Teachers.js"></script>
+
     <div id="footer"></div>
     <script defer src="../JS/Footer.js"></script>
 </body>

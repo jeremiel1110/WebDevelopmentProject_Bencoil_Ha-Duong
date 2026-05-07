@@ -1,0 +1,28 @@
+{
+  "courses": [
+    {
+      "id": "CS101",
+      "name": "Introduction to Computer Science",
+      "teacher": "Jean-Pierre Algorithm",
+      "ects": 6,
+      "description": "Fundamental concepts of programming and logic.",
+      "syllabus": ["Variables & Types", "Control Flow", "Functions", "Recursion"]
+    },
+    {
+      "id": "TI402",
+      "name": "Advanced Networking",
+      "teacher": "Luc Reseaux",
+      "ects": 4,
+      "description": "In-depth study of TCP/IP, routing protocols, and security.",
+      "syllabus": ["OSI Model", "Subnetting", "BGP Routing", "Firewall Config"]
+    },
+    {
+      "id": "AI305",
+      "name": "Artificial Intelligence Ethics",
+      "teacher": "Prof. Ada Lovelace II",
+      "ects": 5,
+      "description": "Exploring the social and moral impact of AI systems.",
+      "syllabus": ["Bias in ML", "Algorithmic Transparency", "Robot Laws", "Case Studies"]
+    }
+  ]
+}

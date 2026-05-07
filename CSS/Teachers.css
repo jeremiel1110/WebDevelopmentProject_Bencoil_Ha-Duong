@@ -1,0 +1,88 @@
+/* Teachers.css */
+
+.teachers-page {
+    padding: 180px 20px 50px; /* Top padding to avoid Navbar overlap */
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+
+.page-title {
+    text-align: center;
+    color: #03394C;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+.tables-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    flex-wrap: wrap; /* Stacks on mobile */
+}
+
+.table-section {
+    flex: 1;
+    min-width: 350px;
+}
+
+.table-section h2 {
+    color: #03394C;
+    background-color: #bfdbf7;
+    padding: 10px;
+    border-radius: 8px 8px 0 0;
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.teacher-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    border-radius: 0 0 12px 12px;
+    overflow: hidden;
+}
+
+.teacher-table th {
+    background-color: #03394C;
+    color: #E1E5F2;
+    padding: 15px;
+    text-align: left;
+}
+
+.teacher-table td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #E1E5F2;
+    color: #333;
+}
+
+.teacher-table tr:hover {
+    background-color: #f8faff;
+}
+
+.teacher-table a {
+    color: #03394C;
+    text-decoration: none;
+    font-weight: bold;
+    border: 1px solid #03394C;
+    padding: 4px 8px;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+.teacher-table a:hover {
+    background-color: #03394C;
+    color: white;
+}
+
+/* Mobile Adjustments */
+@media (max-width: 800px) {
+    .teachers-page {
+        padding-top: 250px;
+    }
+    .tables-container {
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,16 @@
+{
+  "permanentTeachers": [
+    { "name": "Jean-Pierre Algorithm", "expertise": "Discrete Math", "url": "https://example.edu/jp-algo" },
+    { "name": "Marie Data-Structure", "expertise": "Backend Dev", "url": "https://example.edu/marie-ds" },
+    { "name": "Luc Reseaux", "expertise": "Cybersecurity", "url": "https://example.edu/luc-net" },
+    { "name": "Sophie Logicielle", "expertise": "Software Eng", "url": "#" },
+    { "name": "Thomas Pixel", "expertise": "Computer Graphics", "url": "#" }
+  ],
+  "researcherTeachers": [
+    { "name": "Dr. Alan Turing-Junior", "research": "Quantum Computing", "url": "https://example.edu/quantum" },
+    { "name": "Prof. Ada Lovelace II", "research": "AI & Ethics", "url": "https://example.edu/ai-ethics" },
+    { "name": "Dr. Sarah Cyber", "research": "Cryptography", "url": "https://example.edu/crypto" },
+    { "name": "Dr. Marc Cloud", "research": "Distributed Systems", "url": "#" },
+    { "name": "Prof. Elena Vision", "research": "Computer Vision", "url": "#" }
+  ]
+}
