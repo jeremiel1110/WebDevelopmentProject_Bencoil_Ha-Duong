@@ -41,8 +41,16 @@
     border-collapse: collapse;
     background: white;
     box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-    border-radius: 0 0 12px 12px;
+    border-radius: 12px;
     overflow: hidden;
+}
+
+.teacher-table thead th:first-child {
+    border-top-left-radius: 12px;
+}
+
+.teacher-table thead th:last-child {
+    border-top-right-radius: 12px;
 }
 
 .teacher-table th {
@@ -75,4 +83,8 @@
 .teacher-table a:hover {
     background-color: #FDCB6E;
     color: #0A316C;
+}
+
+.after-main-space {
+    height: 96px;
 }

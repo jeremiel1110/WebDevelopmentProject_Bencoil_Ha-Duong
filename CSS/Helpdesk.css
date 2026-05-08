@@ -44,7 +44,6 @@ input, textarea {
   border-radius: 6px;
   box-sizing: border-box;
   font-size: 14px;
-  transition: all 0.3s ease;
 }
 
 input:focus, textarea:focus {
