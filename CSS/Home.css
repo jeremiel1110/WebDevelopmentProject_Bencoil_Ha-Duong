@@ -40,3 +40,35 @@
     line-height: 1.6;
     color: #333;
 }
+
+
+.permanences-home {
+    width: 85%;
+    max-width: 850px;
+    margin: 40px auto;
+    background: white;
+    border-radius: 15px;
+    padding: 25px;
+}
+
+.permanences-home h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #002b5c;
+    font-size: 28px;
+}
+
+#home-permanences-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.home-permanence-card {
+    background-color: #E1E5F2;
+    border: 2px solid #03394C;
+    border-radius: 10px;
+    padding: 15px;
+    min-width: 180px;
+    color: #03394C;
+}
