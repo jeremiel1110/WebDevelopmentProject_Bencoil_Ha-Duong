@@ -99,3 +99,46 @@
     min-width: 180px;
     color: #0A316C;
 }
+
+.why-efrei {
+    width: 85%;
+    max-width: 850px;
+    margin: 40px auto;
+    background: #FFFFFF;
+    border-radius: 15px;
+    padding: 25px;
+    border: 2px solid #0A316C;
+}
+
+.why-efrei h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #0A316C;
+    font-size: 28px;
+}
+
+.why-grid {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+}
+
+.why-card {
+    background-color: #f6fbff;
+    border: 1px solid #0A316C;
+    border-radius: 10px;
+    padding: 16px;
+    flex: 1;
+    text-align: left;
+}
+
+.why-card h3 {
+    margin-top: 0;
+    margin-bottom: 8px;
+    font-size: 20px;
+    color: #0A316C;
+}
+
+.why-card p {
+    margin: 0;
+}
