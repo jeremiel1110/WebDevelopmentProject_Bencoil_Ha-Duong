@@ -9,7 +9,7 @@
 
 .page-title {
     text-align: center;
-    color: #03394C;
+    color: #0A316C;
     font-size: 2.5rem;
     margin-bottom: 40px;
 }
@@ -27,8 +27,8 @@
 }
 
 .table-section h2 {
-    color: #03394C;
-    background-color: #bfdbf7;
+    color: #0A316C;
+    background-color: #eef4ff;
     padding: 10px;
     border-radius: 8px 8px 0 0;
     margin-bottom: 0;
@@ -46,15 +46,15 @@
 }
 
 .teacher-table th {
-    background-color: #03394C;
-    color: #E1E5F2;
+    background-color: #0A316C;
+    color: #FFFFFF;
     padding: 15px;
     text-align: left;
 }
 
 .teacher-table td {
     padding: 12px 15px;
-    border-bottom: 1px solid #E1E5F2;
+    border-bottom: 1px solid #dbe8ff;
     color: #333;
 }
 
@@ -63,26 +63,16 @@
 }
 
 .teacher-table a {
-    color: #03394C;
+    color: #0A316C;
     text-decoration: none;
     font-weight: bold;
-    border: 1px solid #03394C;
+    border: 1px solid #0A316C;
     padding: 4px 8px;
     border-radius: 4px;
     transition: all 0.3s ease;
 }
 
 .teacher-table a:hover {
-    background-color: #03394C;
-    color: white;
-}
-
-/* Mobile Adjustments */
-@media (max-width: 800px) {
-    .teachers-page {
-        padding-top: 250px;
-    }
-    .tables-container {
-        flex-direction: column;
-    }
+    background-color: #FDCB6E;
+    color: #0A316C;
 }

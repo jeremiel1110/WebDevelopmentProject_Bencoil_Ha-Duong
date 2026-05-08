@@ -1,10 +1,33 @@
-h1, p, a {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Open+Sans:wght@300;400&display=swap');
 
 body {
     margin: 0;
-    background-color: #e1e5f2;
+    background-color: #f3f7ff;
+    color: #10243f;
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', Arial, sans-serif;
+    color: #0A316C;
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 1.2;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 32px;
+    line-height: 1.3;
+    font-weight: 700;
+}
+
+p, a, li, td, th, label, input, textarea, select, button {
+    font-family: 'Open Sans', Arial, sans-serif;
 }
 
 .page-content {
@@ -12,6 +35,24 @@ body {
     padding-left: 20px;
     padding-right: 20px;
     box-sizing: border-box;
-
     text-align: center;
+}
+
+main ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+main ul li {
+    position: relative;
+    padding-left: 18px;
+}
+
+main ul li::before {
+    content: "▶";
+    color: #0A316C;
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 12px;
 }

@@ -2,6 +2,28 @@
     padding-top: 120px;
 }
 
+.hero-intro {
+    width: 85%;
+    max-width: 850px;
+    margin: 0 auto 18px auto;
+    text-align: left;
+    color: #FFFFFF;
+    background: #0A316C;
+    border-radius: 14px;
+    padding: 20px 28px;
+    box-sizing: border-box;
+}
+
+.hero-intro h1 {
+    margin: 0 0 8px 0;
+    color: #FFFFFF;
+    font-size: 32px;
+}
+
+.hero-intro p {
+    margin: 0;
+}
+
 .news-section {
     width: 100%;
     padding: 40px 0;
@@ -12,9 +34,11 @@
     width: 85%;
     max-width: 850px;
     margin: 0 auto;
-    background: white;
+    background: #FFFFFF;
     border-radius: 15px;
     overflow: hidden;
+    border: 2px solid #0A316C;
+    position: relative;
 }
 
 .news-carousel #news-img {
@@ -26,19 +50,21 @@
 
 .news-content {
     padding: 25px;
+    background: #0A316C;
+    color: #FFFFFF;
 }
 
 .news-carousel #news-title {
     margin: 0 0 15px;
     font-size: 30px;
-    color: #002b5c;
+    color: #FFFFFF;
 }
 
 .news-carousel #news-text {
     margin: 0;
     font-size: 18px;
     line-height: 1.6;
-    color: #333;
+    color: #FFFFFF;
 }
 
 
@@ -46,15 +72,16 @@
     width: 85%;
     max-width: 850px;
     margin: 40px auto;
-    background: white;
+    background: #FFFFFF;
     border-radius: 15px;
     padding: 25px;
+    border: 2px solid #0A316C;
 }
 
 .permanences-home h2 {
     margin-top: 0;
     margin-bottom: 20px;
-    color: #002b5c;
+    color: #0A316C;
     font-size: 28px;
 }
 
@@ -65,10 +92,10 @@
 }
 
 .home-permanence-card {
-    background-color: #E1E5F2;
-    border: 2px solid #03394C;
+    background-color: #f6fbff;
+    border: 2px solid #0A316C;
     border-radius: 10px;
     padding: 15px;
     min-width: 180px;
-    color: #03394C;
+    color: #0A316C;
 }

@@ -12,7 +12,7 @@
     flex-wrap: wrap;
     gap: 15px;
 
-    background: #bfdbf7;
+    background: #0A316C;
     padding: 10px 20px;
     box-sizing: border-box;
 }
@@ -30,17 +30,17 @@
     gap: 14px;
     flex-wrap: wrap;
 
-    background-color: rgb(59, 59, 124);
+    background-color: #0d3d86;
     padding: 6px;
     border-radius: 20px;
 }
 
-.links {
+.navbar .links {
     display: flex;
     gap: 10px;
     flex-wrap: wrap;
 
-    background-color: rgb(105, 105, 221);
+    background-color: rgba(129, 236, 236, 0.22);
     padding: 14px;
     border-radius: 14px;
 }
@@ -54,29 +54,30 @@
 .left h1 {
     margin: 0;
     font-size: 24px;
-    color: black;
+    color: #FFFFFF;
 }
 
 .navlink {
     text-decoration: none;
     font-size: 16px;
-    color: #E1E5F2;
-    background-color: #03394C;
+    color: #FFFFFF;
+    background-color: #0A316C;
+    border: 1px solid #81ECEC;
     padding: 8px 12px;
     border-radius: 5px;
     white-space: nowrap;
 }
 
 .navlink:hover {
-    background-color: #013041;
+    background-color: #0d3d86;
 }
 
 .button-link {
     text-decoration: none;
     font-size: 32px;
-    color: black;
-    background: white;
-    border: 2px solid #023f55;
+    color: #0A316C;
+    background: #FDCB6E;
+    border: 2px solid #FFFFFF;
     border-radius: 8px;
     padding: 6px 14px;
     margin-right: 6px;
@@ -84,5 +85,5 @@
 }
 
 .button-link:hover {
-    background-color: #d9d9d9;
+    background-color: #ffe0a6;
 }
