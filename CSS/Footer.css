@@ -14,7 +14,7 @@
 
 .footer-left {
     display: flex;
-    flex-direction: center;
+    align-items: center;
     gap: 8px;
     max-width: 40%;
 }
@@ -67,3 +67,28 @@
     padding: 14px;
     border-radius: 14px;
 }
+
+
+.footer-middle {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-middle a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    text-decoration: none;
+    color: #03394C;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.footer-middle img {
+    width: 36px;
+    height: 36px;
+    object-fit: contain;
+}
+
