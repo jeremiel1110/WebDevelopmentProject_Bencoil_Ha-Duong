@@ -1,0 +1,5 @@
+Warning: Consider using the h1 element as a top-level heading only — or else use the headingoffset attribute (otherwise, all h1 elements are treated as top-level headings by many screen readers and other tools).
+
+From line 18, column 13; to line 18, column 16
+
+          <h1>EFREI'

@@ -1,0 +1,17 @@
+Warning: Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections, or else use a div element instead for any cases where no heading is needed.
+
+From line 43, column 9; to line 43, column 38
+
+↩↩        <section class="news-section">↩     
+
+Warning: Consider using the h1 element as a top-level heading only — or else use the headingoffset attribute (otherwise, all h1 elements are treated as top-level headings by many screen readers and other tools).
+
+From line 39, column 13; to line 39, column 16
+
+          <h1>EFREI 
+
+Warning: Consider using the h1 element as a top-level heading only — or else use the headingoffset attribute (otherwise, all h1 elements are treated as top-level headings by many screen readers and other tools).
+
+From line 18, column 13; to line 18, column 16
+
+          <h1>EFREI'
