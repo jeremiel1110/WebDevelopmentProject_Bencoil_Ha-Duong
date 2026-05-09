@@ -48,6 +48,34 @@
     display: block;
 }
 
+.news-nav-btn {
+    position: absolute;
+    top: 140px;
+    width: 44px;
+    height: 64px;
+    border: none;
+    background: rgba(10, 49, 108, 0.35);
+    color: #FFFFFF;
+    font-size: 32px;
+    line-height: 1;
+    cursor: pointer;
+    z-index: 3;
+}
+
+.news-nav-btn:hover {
+    background: rgba(10, 49, 108, 0.7);
+}
+
+.news-prev {
+    left: 0;
+    border-radius: 0 10px 10px 0;
+}
+
+.news-next {
+    right: 0;
+    border-radius: 10px 0 0 10px;
+}
+
 .news-content {
     padding: 25px;
     background: #0A316C;

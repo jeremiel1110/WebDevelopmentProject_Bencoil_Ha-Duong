@@ -14,7 +14,13 @@ document.addEventListener('DOMContentLoaded', () => {
         return;
     }
 
-    permanences.forEach(item => {
+    const sortedPermanences = [...permanences].sort((a, b) => {
+        const dateA = new Date(`${a.date}T${a.start}`);
+        const dateB = new Date(`${b.date}T${b.start}`);
+        return dateA - dateB;
+    });
+
+    sortedPermanences.forEach(item => {
 
         const card = document.createElement('div');
 
