@@ -1,0 +1,2 @@
+Il faut utiliser Live Server pour que ca marche bien !
+Code Server must be used for the project to work well
